@@ -28,7 +28,18 @@ aside {
 }
 
 ul {
-  width: max-content;
+  list-style: none;
+  padding-left: 0;
+}
+
+.user_online {
+  .bio {
+    display: none;
+  }
+  .location {
+    text-align: left;
+    color: darkslategray;
+  }
 }
 
 li {
