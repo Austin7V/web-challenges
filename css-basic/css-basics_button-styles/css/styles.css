@@ -31,19 +31,52 @@ button {
 Make sure not to put your code into the comments, because then nothing will happen. */
 
 .button1 {
+  border: 2px solid rgb(142, 3, 3);
+  border-radius: 12px;
+  background-color: lightcoral;
+  color: rgb(214, 240, 17);
   /* Style me! Change my border, set a border radius or try out other styles. :) */
+}
+.button1:hover {
+  background-color: darkred;
+  cursor: pointer;
 }
 
 .button2 {
+  border: 4px dashed HEX(8e303);
+  border-radius: 25px;
+  background-color: rgb(142, 3, 3);
+  color: wheat;
   /* Style me! Change my color or background-color, or both! You can experiment with different color formats here, like HEX, RGB, etc. */
+}
+.button2:hover {
+  background-color: rgb(201, 9, 223);
+  cursor: pointer;
 }
 
 .button3 {
+  font-family: "Courier New";
+  font-size: 15px;
+  color: navy;
+  border: 1px dotted gray;
   /* Style me! You can test out changing the font, font size, ...*/
+}
+.button3:hover {
+  background-color: lightgray;
+  cursor: pointer;
 }
 
 .button4 {
+  border: 4px double black;
+  border-radius: 0px;
+  background-color: rgb(26, 15, 177);
+  color: white;
+  box-shadow: 3px 3px 5px rgb(12, 5, 5);
   /* Style me! Can you add a shadow to this button? Try playing around with shadow properties - you can even change the shadow color, size, and more. */
 }
-
+.button4:hover {
+  background-color: rgb(44, 248, 3);
+  cursor: pointer;
+  box-shadow: 5px 5px 10px rgb(245, 217, 6);
+}
 /* Feel free to play around with other properties, too. */
