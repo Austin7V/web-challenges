@@ -6,9 +6,7 @@
   the park should appear as a pale yellow box with a dashed border.
 */
 
-*,
-*::before,
-*::after {
+* {
   box-sizing: border-box;
 }
 
@@ -28,6 +26,27 @@
     The size of the emojis is controlled via the font size.
     Set the font size to 32px.
   */
+  font-size: 32px;
+}
+
+.giraffe {
+  text-align: center;
+}
+
+.giraffe:hover {
+  background-color: lightgreen;
+}
+
+.dino {
+  text-align: right;
+}
+
+.dino:hover {
+  background-color: lightsalmon;
+}
+
+.crocodile:hover {
+  background-color: lightblue;
 }
 
 /*
