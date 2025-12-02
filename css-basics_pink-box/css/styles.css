@@ -1,11 +1,17 @@
-*,
-*::before,
-*::after {
+* {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-body {
-  font-family: system-ui;
+.box {
+  font-family: cursive;
+  padding: 8px;
+  height: 150px;
+  width: 150px;
+  background-color: hotpink;
+  color: white;
+  border-radius: 8px;
 }
 
 /* Put a selector here to select div elements (see index.html). */
