@@ -18,8 +18,14 @@ h2 {
   background: #fddcd2;
   color: #3f0097;
 }
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
 
 .profile__image {
+  align-self: center;
   object-fit: cover;
   border-radius: 999px;
   aspect-ratio: 1 / 1;
