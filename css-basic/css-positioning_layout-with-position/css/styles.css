@@ -100,4 +100,8 @@ body {
   border-radius: 5px;
   background-color: #ff4a11;
   box-shadow: 0 6px 8px rgba(0, 0, 0, 0.4);
+  position: fixed;
+  bottom: 70px;
+  left: 15px;
+  z-index: 2;
 }
