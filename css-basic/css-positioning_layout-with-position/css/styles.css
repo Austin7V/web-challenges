@@ -64,11 +64,14 @@ body {
   background-color: #ebddfa;
   scroll-margin-top: 150px;
   border-radius: 5px;
+  position: relative;
 }
 
 .card__heading {
   color: #333;
   margin: 0 0 10px 0;
+  position: absolute;
+  top: 0px;
 }
 
 /**
@@ -81,6 +84,9 @@ body {
   padding: 6px 12px;
   border-radius: 50%;
   box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px;
+  position: absolute;
+  top: -20px;
+  right: -30px;
 }
 
 /**
