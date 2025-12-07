@@ -1,0 +1,17 @@
+.header {
+  background: #8336ff7b;
+}
+
+.header__title {
+  text-align: center;
+  color: var(--color-foam);
+  line-height: 1.4;
+  margin: 0;
+  letter-spacing: 0.025em;
+  text-transform: uppercase;
+  padding-block: 16px;
+}
+
+.header__title-highlight {
+  color: var(--color-nemo);
+}
