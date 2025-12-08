@@ -239,11 +239,50 @@ body {
 CSS based on conditions such as viewport width, etc. */
 
 /* Media Query Tablet */
-/* --- */
-/* Replace this comment with your media query. */
-/* --- */
-
+@media (min-width: 600px) {
+  .card-section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .product-card {
+    width: 45%;
+  }
+  .--forest {
+    display: flex;
+    flex: 0 0 45%;
+  }
+  .intro-text {
+    flex: 0 0 45%;
+  }
+}
 /* Media Query Desktop */
-/* --- */
-/* Replace this comment with your media query. */
-/* --- */
+@media (min-width: 900px) {
+  body {
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+  .main-header {
+    width: 60%;
+  }
+  .navbar {
+    width: 60%;
+  }
+  .card-section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .product-card {
+    width: 45%;
+  }
+  .--forest {
+    display: flex;
+    flex: 0 0 100%;
+  }
+  .intro-text {
+    flex: 0 0 1;
+  }
+}
