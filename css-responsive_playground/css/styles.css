@@ -63,7 +63,7 @@ h1 {
   background-color: lightblue;
 
   width: 20vw;
-  height: 100px;
+  height: 20vw;
 }
 
 .box--two {
@@ -71,6 +71,18 @@ h1 {
 
   width: 100px;
   height: 100px;
+}
+@media (min-width: 599px) {
+  .box--two {
+    width: 200px;
+    height: 200px;
+  }
+}
+@media (min-width: 1199px) {
+  .box--two {
+    width: 400px;
+    height: 400px;
+  }
 }
 
 .box--three {
