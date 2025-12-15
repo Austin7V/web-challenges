@@ -1,6 +1,6 @@
 console.clear();
 
-const operand1 = 12;
+let operand1 = 12;
 const operand2 = 4;
 
 // ----- Mathematical Operations -----
@@ -13,6 +13,7 @@ const subtractButton = document.querySelector('[data-js="subtract"]');
 const multiplyButton = document.querySelector('[data-js="multiply"]');
 const divideButton = document.querySelector('[data-js="divide"]');
 const exponentButton = document.querySelector('[data-js="exponent"]');
+const moduloButton = document.querySelector('[data-js="modulo"]');
 
 const increaseByOneButton = document.querySelector(
   '[data-js="increase-by-one"]'
@@ -84,5 +85,33 @@ Step 2: Add event listeners to update `operand1` based on the button clicked. Lo
 */
 
 // --v-- write your code here --v--
+increaseByOneButton.addEventListener("click", () => {
+  operand1 = operand1 + 1;
+  console.log("Operand1:", operand1);
+});
 
+increaseByFiveButton.addEventListener("click", () => {
+  operand1 = operand1 + 5;
+  console.log("Operand1:", operand1);
+});
+
+decreaseByOneButton.addEventListener("click", () => {
+  operand1 = operand1 - 1;
+  console.log("Operand1:", operand1);
+});
+
+decreaseByFiveButton.addEventListener("click", () => {
+  operand1 = operand1 - 5;
+  console.log("Operand1:", operand1);
+});
+
+multiplyByTwoButton.addEventListener("click", () => {
+  operand1 = operand1 * 2;
+  console.log("Operand1:", operand1);
+});
+
+divideByTwoButton.addEventListener("click", () => {
+  operand1 = operand1 / 2;
+  console.log("Operand1:", operand1);
+});
 // --^-- write your code here --^--
