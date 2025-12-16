@@ -9,10 +9,11 @@ console.clear();
 */
 
 // --v-- write your code here --v--
-const bookTitle = "JS and Basic Functions";
+/* const bookTitle = "JS and Basic Functions";
 const bookAuthor = "S. Badin";
 const bookRating = 4.7;
-const copiesSold = 10000;
+const copiesSold = 10000; */
+
 // --^-- write your code here --^--
 
 /*
@@ -30,7 +31,23 @@ Then:
 */
 
 // --v-- write your code here --v--
+const bookTitle = "The Lord of the Javascript";
+const bookAuthor = "Mario";
+let bookRating = 4.2;
+let copiesSold = 120;
 
+console.log("Title:", bookTitle);
+console.log("Author:", bookAuthor);
+console.log("Rating:", bookRating);
+console.log("Sales:", copiesSold);
+
+copiesSold += 1;
+bookRating = 4.5;
+
+console.log("Title:", bookTitle);
+console.log("Author:", bookAuthor);
+console.log("Rating:", bookRating);
+console.log("Sales:", copiesSold);
 // --^-- write your code here --^--
 
 /*
