@@ -9,7 +9,10 @@ console.clear();
 */
 
 // --v-- write your code here --v--
-
+const bookTitle = "JS and Basic Functions";
+const bookAuthor = "S. Badin";
+const bookRating = 4.7;
+const copiesSold = 10000;
 // --^-- write your code here --^--
 
 /*
