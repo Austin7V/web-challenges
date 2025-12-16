@@ -61,4 +61,8 @@ Note: Separation text refers to the text that is logged in the console before ea
 
 // --v-- write your code here --v--
 
+function logSeparator(exerciseNumber) {
+  console.log("-------------");
+  console.log("Exercise " + exerciseNumber + ":");
+}
 // --^-- write your code here --^--
