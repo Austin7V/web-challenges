@@ -31,7 +31,7 @@ Then:
 */
 
 // --v-- write your code here --v--
-const bookTitle = "The Lord of the Javascript";
+/* const bookTitle = "The Lord of the Javascript";
 const bookAuthor = "Mario";
 let bookRating = 4.2;
 let copiesSold = 120;
@@ -47,7 +47,7 @@ bookRating = 4.5;
 console.log("Title:", bookTitle);
 console.log("Author:", bookAuthor);
 console.log("Rating:", bookRating);
-console.log("Sales:", copiesSold);
+console.log("Sales:", copiesSold); */
 // --^-- write your code here --^--
 
 /*
@@ -60,5 +60,26 @@ console.log("Sales:", copiesSold);
 */
 
 // --v-- write your code here --v--
+const bookTitle = "The Lord of the Javascript";
+const bookAuthor = "Mario";
+let bookRating = 4.2;
+let copiesSold = 120;
 
+function logBookData() {
+  console.log("Title:", bookTitle);
+  console.log("Author:", bookAuthor);
+  console.log("Rating:", bookRating);
+  console.log("Sales:", copiesSold);
+}
+logBookData();
+
+copiesSold += 30;
+bookRating += 0.2;
+logBookData();
+
+copiesSold += 23;
+logBookData();
+
+copiesSold += 45;
+logBookData();
 // --^-- write your code here --^--
