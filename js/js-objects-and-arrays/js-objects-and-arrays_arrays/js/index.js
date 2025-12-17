@@ -22,6 +22,10 @@ const firstNumber = numbers[0];
 
 const fruits = ["apple", "banana", "grapefruit"];
 
+fruits[0] = "mango";
+
+console.log(fruits);
+
 // EXERCISE 5
 // Set the value of `nestedNumber` to the fourth number in the `nestedNumbers` array using bracket notation.
 
