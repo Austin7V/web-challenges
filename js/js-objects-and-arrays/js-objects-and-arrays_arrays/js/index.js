@@ -59,6 +59,9 @@ unshiftedPets.unshift("hamster");
 
 const shiftedFruits = ["apple", "banana", "mango"];
 
+shiftedFruits.shift();
+
+console.log(shiftedFruits);
 export {
   exampleArray,
   nestedArray,
