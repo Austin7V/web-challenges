@@ -15,7 +15,7 @@ const nestedArray = ["example", 10, true, [1, 2, 3, 4]];
 
 const numbers = [20, 10, 50];
 
-const firstNumber = "change me";
+const firstNumber = numbers[0];
 
 // EXERCISE 4
 // Update the first fruit in `fruits` to be "mango" instead of "apple".
