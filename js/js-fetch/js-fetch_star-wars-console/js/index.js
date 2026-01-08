@@ -6,9 +6,9 @@ function fetchData(url) {
   fetch(url)
     .then((response) => response.json())
     .then((data) => {
-      console.log(data);
+      console.log(data.results[2].eye_color);
     });
-  console.log("Fetch request sent...");
+  console.log("Fetch test...");
 }
 
 fetchData(url);
