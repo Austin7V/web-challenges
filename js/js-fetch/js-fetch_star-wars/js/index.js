@@ -5,17 +5,6 @@ console.clear();
 
 const url = "https://swapi.py4e.com/api/people";
 
-async function fetchData(url) {
-  const response = await fetch(url);
-  const data = await response.json();
-
-  console.log(data);
-
-  console.log("Fetch test..");
-}
-
-fetchData(url);
-
 const EXAMPLE_DATA = {
   name: "Luke Skywalker",
   height: "172",
@@ -50,10 +39,14 @@ const EXAMPLE_DATA = {
 const firstCard = Card(EXAMPLE_DATA);
 renderElement(firstCard);
 
-fetchDataAndRender();
+async function fetchDataAndRender() {
+  const response = await fetch(url);
+  const data = await response.json();
 
-// --v-- your code below this line --v--
-
-function fetchDataAndRender() {
-  fetch(); // ?
+  data.results.forEach((charachter) => {
+    const card = Card(charachter);
+    renderElement(card);
+  });
 }
+
+fetchDataAndRender();
