@@ -2,6 +2,7 @@ console.clear();
 
 const form = document.querySelector("form");
 const output = form.querySelector("output");
+const errorElement = document.querySelector(".error");
 
 const operations = {
   add: (a, b) => a + b,
@@ -17,8 +18,19 @@ const operations = {
 
 form.addEventListener("submit", (event) => {
   event.preventDefault();
+
+  // очистка перед каждым вычислением
+  errorElement.textContent = "";
+  output.textContent = "";
+
   const firstNumber = Number(event.target.firstNumber.value);
   const secondNumber = Number(event.target.secondNumber.value);
   const operation = event.target.operation.value;
-  output.innerText = operations[operation](firstNumber, secondNumber);
+
+  try {
+    const result = operations[operation](firstNumber, secondNumber);
+    output.textContent = result;
+  } catch (error) {
+    errorElement.textContent = error.message;
+  }
 });
