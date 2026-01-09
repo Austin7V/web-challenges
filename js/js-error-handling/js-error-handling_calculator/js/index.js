@@ -19,7 +19,6 @@ const operations = {
 form.addEventListener("submit", (event) => {
   event.preventDefault();
 
-  // очистка перед каждым вычислением
   errorElement.textContent = "";
   output.textContent = "";
 
