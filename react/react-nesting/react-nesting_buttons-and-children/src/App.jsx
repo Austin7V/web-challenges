@@ -1,3 +1,4 @@
+import Button from "./Component/Button.jsx";
 import React from "react";
 import "./styles.css";
 
@@ -9,13 +10,5 @@ export default function App() {
       <Button>Edit</Button>
       <Button>Cancel</Button>
     </main>
-  );
-}
-
-function Button({ children }) {
-  return (
-    <button className="button" type="button">
-      {children}
-    </button>
   );
 }
