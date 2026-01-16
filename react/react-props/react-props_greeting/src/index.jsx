@@ -1,3 +1,4 @@
+import Greeting from "./Component/Greeting.jsx";
 import React, { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import "./styles.css";
