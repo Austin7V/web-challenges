@@ -1,3 +1,5 @@
+console.clear();
+
 import * as exercises from "./index";
 
 test('Exercise 1: course is "Web Development"', () => {
@@ -22,9 +24,11 @@ test('Exercise 4: personLastname is "Main" and the object moreInformation contai
   expect(exercises.moreInformation).toHaveProperty("firstName", "Alex");
 });
 
-test('Exercise 5: name, country, and numPeople are correctly destructured from the city object', () => {
+test("Exercise 5: name, country, and numPeople are correctly destructured from the city object", () => {
   const city = { name: "Marseille", country: "France", population: 861635 };
   const result = exercises.logInfo(city);
 
-  expect(result).toEqual("Marseille is in France and has 861635 inhabitants in it.");
+  expect(result).toEqual(
+    "Marseille is in France and has 861635 inhabitants in it."
+  );
 });
