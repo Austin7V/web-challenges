@@ -30,6 +30,7 @@ Your tests should cover the following criteria (write one test case for each of 
   - returns a negative value if only the second argument is negative
   - returns a positive value if called with two negative arguments
 
+
 - `divide()`
   - returns 3 if called with divide(9, 3)
   - returns "You should not do this!" if called with 0 as second argument
