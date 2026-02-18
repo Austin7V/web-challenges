@@ -1,5 +1,4 @@
 import Button from "./Component/Button.jsx";
-import React from "react";
 import "./styles.css";
 
 export default function App() {
